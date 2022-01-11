@@ -5,15 +5,15 @@
 }
 
 * {
-    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
+
 
 .teimoso {
   text-decoration: none;
 }
 
 html, body {
-    background-color: #3d3d3d;
+    background-color: #0d101d;
 }
