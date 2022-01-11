@@ -1,21 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-  --color-primary: #b83a3a;
-  --background: #0d101d;
-  --background_light: #1c223a;
+  --color-primary: #6f0000;
+  --color-background: #061f2c;
 }
 
 * {
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    color: white;
-}
-
-
-.teimoso {
-  text-decoration: none;
 }
 
 html, body {
-    background-color: #0d101d;
+    background-color: #061f2c;
+}
+
+.teimoso {
+  text-decoration: none;
+  color: white;
+}
+.teimoso:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: unset;
 }

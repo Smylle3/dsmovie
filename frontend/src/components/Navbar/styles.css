@@ -25,3 +25,12 @@ header {
     display: flex;
     align-items: center;
 }
+
+.dsmovie-contact-home {
+    color: white;
+    text-decoration: none;
+}
+
+.dsmovie-contact-home:hover {
+    color: white;
+}
