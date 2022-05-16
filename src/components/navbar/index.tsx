@@ -8,7 +8,8 @@ export default function NavBar() {
             <div className='navbar'>
                 <h1>DSMovie</h1>
                 <a target='_blank' href='https://github.com/Smylle3/dsmovie' rel="noreferrer">
-                    <SiGithub className='icon' size={25} /> /Smylle3
+                    <SiGithub className='icon' size={25} />
+                    /Smylle3
                 </a>
             </div>
         </header>
