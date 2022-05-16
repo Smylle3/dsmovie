@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --light-primary: #5A138A;
+  --light-secondary: #4F1078;
+  --light-tertiary: #440E68;
+
+  --dark-primary: #B3F28A;
+  --dark-secondary: #9FF06A;
+  --dark-tertiary: #90ED53;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cormorant Garamond", serif;
+  background-color: var(--light-tertiary);
+}
+
+body a {
+  text-decoration: none;
+  color: unset;
+}
+body a:hover {
+  text-decoration: none;
+  color: unset;
 }
