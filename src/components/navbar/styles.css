@@ -1,0 +1,19 @@
+.navbar,
+.navbar h1,
+.navbar a {
+  background-color: white;
+  color: var(--light-primary);
+}
+
+.navbar a {
+  font-size: larger;
+}
+
+.icon {
+  margin-right: 10px;
+  background-color: white;
+}
+.navbar {
+  padding: 1em 2em;
+  cursor: default;
+}
