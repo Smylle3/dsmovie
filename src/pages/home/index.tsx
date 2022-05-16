@@ -1,11 +1,9 @@
-import NavBar from 'components/navbar'
 import React from 'react'
+import './styles.css'
 
 export default function Home() {
   return (
-    <div>
-      <NavBar />
-      <h1 >Página inicial</h1>
-    </div>
+
+      <h1>Página inicial</h1>
   )
 }
