@@ -3,6 +3,7 @@
 .navbar a {
   background-color: white;
   color: var(--light-primary);
+  margin: 0;
 }
 
 .navbar a {
