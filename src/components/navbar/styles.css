@@ -6,6 +6,16 @@
   margin: 0;
 }
 
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.titleIcon {
+  background-color: transparent;
+  margin-right: 0.5em;
+}
+
 .navbar a {
   font-size: larger;
 }
