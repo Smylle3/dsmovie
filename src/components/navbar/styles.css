@@ -1,0 +1,50 @@
+.navbar,
+.navbar h1,
+.navbar a {
+  background-color: white;
+  color: var(--light-primary);
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.titleIcon {
+  background-color: transparent;
+  margin-right: 0.5em;
+}
+
+.navbar a {
+  font-size: larger;
+}
+
+.icon {
+  margin-right: 10px;
+  background-color: white;
+}
+.navbar {
+  padding: 1em 2em;
+  cursor: default;
+  box-shadow: 0px 0px 35px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  background-color: transparent;
+  color: var(--light-primary);
+  cursor: default;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.fix {
+  height: 4em;
+  background-color: aqua;
+}
