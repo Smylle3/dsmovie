@@ -13,9 +13,6 @@ export default function NavBar() {
                         <MdMovie className='titleIcon' size={40} />
                         <h1>DSMovie</h1>
                     </Link>
-                    <text className='info' >
-                        © 2022 Smylle, development by React Js. All rights reserved
-                    </text>
                     <a target='_blank' href='https://github.com/Smylle3/dsmovie' rel="noreferrer">
                         <SiGithub className='icon' size={25} />
                         /Smylle3
