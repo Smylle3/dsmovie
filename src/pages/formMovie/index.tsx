@@ -16,7 +16,7 @@ export default function FormMovie() {
       <div className='cardMovie'>
         <img alt='MovieImg'  />
         <h1>Title Movie</h1>
-        <form>
+        <form className='myForm'>
           <label htmlFor='email' className='label' >
             Informe seu Email*
           </label>
