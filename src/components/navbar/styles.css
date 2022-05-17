@@ -17,4 +17,24 @@
 .navbar {
   padding: 1em 2em;
   cursor: default;
+  box-shadow: 0px 0px 35px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  background-color: transparent;
+  color: var(--light-primary);
+  cursor: default;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.fix {
+  height: 4em;
+  background-color: aqua;
 }
