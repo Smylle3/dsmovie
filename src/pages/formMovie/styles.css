@@ -25,7 +25,7 @@
   background-color: var(--light-secondary);
 }
 
-form {
+.myForm {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,8 +45,8 @@ form {
   cursor: pointer;
 }
 
-input,
-textarea {
+#email,
+#description {
   width: 100%;
   border: 0 none;
   outline: 0 none;
