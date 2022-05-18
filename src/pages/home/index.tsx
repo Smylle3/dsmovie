@@ -6,7 +6,7 @@ import './styles.css'
 export default function Home() {
   const [movieName, setMovieName] = useState('')
   const [MovieDetails, setmovieDetails] = useState([])
-  const [isMovie, setIsMovie] = useState(false)
+  
 
   function handleSubmit(event: any) {
     event.preventDefault()
@@ -46,7 +46,7 @@ export default function Home() {
           <div className="row">
             {MovieDetails.map((movie) => (
               <div className="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-3">
-                <CardMovie name={movie} setIsMovie={setIsMovie} isMovie={isMovie} />
+                <CardMovie name={movie} />
               </div>
             ))}
           </div></div>
