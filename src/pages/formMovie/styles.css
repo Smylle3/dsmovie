@@ -34,8 +34,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  overflow-y: scroll;
 }
 
 .imageMovie {
@@ -78,4 +76,26 @@
 .movieLink {
   background-color: var(--light-secondary);
   width: 100%;
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 993px) {
+  .infoMovie {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    align-items: center;
+    margin-top: 25em;
+    padding-top: 3em;
+  }
+
+  .container {
+    overflow-y: scroll;
+    padding: 5em;
+  }
+
+  .moviePopularity {
+    display: flex;
+    flex-direction: column;
+  }
 }
