@@ -10,6 +10,19 @@
   --dark-tertiary: #90ED53;
 }
 
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 20px;
+}
+
 * {
   font-family: "Cormorant Garamond", serif;
   background-color: var(--light-tertiary);
