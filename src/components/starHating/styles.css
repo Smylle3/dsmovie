@@ -1,0 +1,10 @@
+.hate {
+    display: flex;
+    background-color: var(--light-secondary);
+  }
+  
+  .hating {
+    background-color: transparent;
+    margin: 5px;
+    color: yellow;
+  }

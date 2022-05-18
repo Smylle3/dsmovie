@@ -6,6 +6,7 @@ import './styles.css'
 export default function Home() {
   const [movieName, setMovieName] = useState('')
   const [MovieDetails, setmovieDetails] = useState([])
+  
 
   function handleSubmit(event: any) {
     event.preventDefault()

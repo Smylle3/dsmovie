@@ -45,6 +45,8 @@
   cursor: pointer;
   width: 10%;
   height: 3.5em;
+  color: white;
+  border: 0 none;
 }
 
 .homeButtonIcon {
@@ -58,4 +60,11 @@
   width: 60%;
   text-align: center;
   cursor: default;
+}
+
+.modal {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

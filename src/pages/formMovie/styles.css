@@ -1,89 +1,101 @@
 .container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  padding: 2em;
-  cursor: default;
-}
-
-.cardMovie {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 
-  border-radius: 5px;
-  padding: 2em;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
 
-  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+.infoMovie {
+  border-radius: 10px;
+
+  width: 80%;
+  display: flex;
+
   background-color: var(--light-secondary);
 }
 
-.cardMovie h1,
-.cardMovie label {
+.movieContent {
   background-color: var(--light-secondary);
-}
+  width: 100%;
+  padding: 1em;
+  border-radius: 10px;
 
-.myForm {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--light-secondary);
 }
 
-.stars {
-  margin-top: 10px;
-  display: flex;
-  background-color: var(--light-secondary);
-}
+.imageMovie {
+  border-radius: 7px;
 
-.onlyStar {
-  margin: 5px;
-  background-color: transparent;
-  color: yellow;
-  cursor: pointer;
-}
-
-#email,
-#description {
   width: 100%;
-  border: 0 none;
-  outline: 0 none;
-
-  color: white;
-  background-color: var(--light-primary);
-
-  border-radius: 5px;
-  padding: 3px 10px;
-  margin: 10px 0;
+  max-width: 300px;
+  height: auto;
 }
 
-.cardMovie .label {
-  margin-top: 15px;
+.movieOverview {
+  background-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
 }
 
-button,
-.enviarButton,
+.moviePopularity {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.moviePopularity text {
+  background-color: transparent;
+  margin-left: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .cancelarButton {
+  background-color: #b71c1c;
   width: 100%;
   margin-top: 15px;
   padding: 5px;
   color: white;
   border: 0 none;
   border-radius: 5px;
+}
+
+.movieLink {
   background-color: var(--light-secondary);
-}
-
-.enviarButton {
-  background-color: #43a047;
-}
-
-.cancelarButton {
-  background-color: #b71c1c;
-}
-
-.link {
   width: 100%;
-  background-color: var(--light-secondary);
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 993px) {
+  .infoMovie {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    align-items: center;
+    margin-top: 25em;
+    padding-top: 3em;
+  }
+
+  .container {
+    overflow-y: scroll;
+    padding: 5em;
+  }
+
+  .moviePopularity {
+    display: flex;
+    flex-direction: column;
+  }
 }
