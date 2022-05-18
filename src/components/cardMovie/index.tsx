@@ -1,11 +1,15 @@
 import StarHating from 'components/starHating';
-import React from 'react'
+import FormMovie from 'pages/formMovie';
+import React, { useState } from 'react'
 import './styles.css'
 
 export default function CardMovie(props: any) {
+  const [details, setDetails] = useState({})
+  const [isMovie, setIsMovie] = useState(false)
 
   function whatsMovie() {
-    props.setIsMovie(true)
+    setDetails(props.name)
+    setIsMovie(true)
   }
 
   return (
@@ -20,6 +24,11 @@ export default function CardMovie(props: any) {
       <button className='details' onClick={() => whatsMovie()} >
         DETALHES
       </button>
+      {isMovie ?
+        <div>
+          <FormMovie setIsMovie={setIsMovie} details={details} />
+        </div>
+        : null}
     </div>
   )
 }
