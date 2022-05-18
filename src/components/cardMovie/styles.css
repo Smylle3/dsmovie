@@ -26,17 +26,7 @@
   height: auto;
 }
 
-.hate {
-  margin-top: 10px;
-  display: flex;
-  background-color: var(--light-secondary);
-}
 
-.hating {
-  background-color: transparent;
-  margin: 5px;
-  color: yellow;
-}
 
 .cardMovie .label {
   margin-top: 15px;
