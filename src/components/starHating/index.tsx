@@ -1,4 +1,5 @@
 import React from 'react'
+import './styles.css'
 import { BsStar, BsStarFill } from "react-icons/bs";
 
 export default function StarHating(props: any) {
