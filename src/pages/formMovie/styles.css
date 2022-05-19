@@ -83,7 +83,6 @@
   .infoMovie {
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
     align-items: center;
     margin-top: 25em;
     padding-top: 3em;
